@@ -1,0 +1,62 @@
+/* custom style for moodle app customization 
+ * Author:  joshuaomotayo
+ * Url:     http://olalekan.pw
+ * Email:   admin@olalekan.pw
+*/
+
+
+/* logo */
+
+ion-app.app-root page-core-login-credentials img.login-logo, ion-app.app-root page-core-login-reconnect img.login-logo, ion-app.app-root page-core-login-site img.login-logo, .core-login-site-logo img {
+    width: 45%;
+    padding: 50px 0 !important
+}
+
+.tabs-md .tabbar, .tabs-ios .tabbar {
+    background: #7d56ad;
+}
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon, .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+    color: #ff7373 !important;
+}
+
+ion-app.app-root page-core-login-credentials .box {
+    border: none;
+}
+
+ion-app.app-root page-core-login-credentials .scroll-content, ion-app.app-root page-core-login-credentials .box {
+    background: radial-gradient(#7d56ad, #7d56ad);
+}
+
+ion-app.app-root page-core-login-credentials .box, ion-app.app-root page-core-login-reconnect .box, ion-app.app-root page-core-login-site .box {
+    background: radial-gradient(#7d56ad, #7d56ad);
+}
+
+ion-app.app-root page-core-login-credentialsscroll-content, ion-app.app-root page-core-login-reconnect .scroll-content, ion-app.app-root page-core-login-site .scroll-content {
+    background: radial-gradient(#7d56ad, #7d56ad);
+}
+
+/*login button color*/
+.core-login-login-button.button-md, .core-login-login-button.button-ios {
+    background: #ff7373;
+}
+.text-input.text-input-md.ng-star-inserted, .text-input.text-input-ios.ng-star-inserted {
+    color: #ffffff;
+}
+
+/*login input has focus*/
+
+.item-md.item-input.item-input-has-focus .item-inner,
+.item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: #ffffff;
+}
+
+.list-md .item-input.item-input-has-focus:last-child,
+.list-md .item-input.input-has-focus:last-child {
+  border-bottom-color: #004B93;
+}
+
+/* hide timeline */
+.addon-block-timeline {
+    display: none;
+}
